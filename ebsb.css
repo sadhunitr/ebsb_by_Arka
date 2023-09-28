@@ -1,0 +1,21 @@
+#ebsblogo{
+    display: flex;
+    justify-content: center;
+}
+#ebsblogo img{
+    height: 150px;
+}
+footer{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.exceptfooter{
+    border: solid 3px ;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}

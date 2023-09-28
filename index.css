@@ -1,0 +1,91 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    animation-name: colorAnimate;
+    animation-duration: 1.5s;
+    animation-timing-function: all ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorAnimate {
+    from {background-color: rgb(130, 199, 255);};}
+    to {background-color: rgb(67, 170, 255);}
+
+#ebsblogo{
+
+    padding: 20px;
+    
+}
+#ebsblogo img{
+    height: 200px;
+}
+.logo{
+    height: 3em;
+}
+.logo:hover{
+    scale: 1.2;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.logo_heading{
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#hhh{
+    display: flex;
+    justify-content: center;
+}
+.exceptfooter{
+    font-family:sans-serif;
+    width: 90vw;
+    background-color: white;
+    text-align: center;
+    border: solid rgb(90, 90, 255) 2.5px;
+    border-radius: 25px;
+    padding: 15px;
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: dotted 1.5px;
+    background-color:rgb(253, 119, 57) ;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+}
+.sme{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.smepic2{
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+.smepic img{
+    transition: all ease 0.2s;
+    height: 300px;
+}
+.smepic:hover img{
+    scale: 1.2;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    transition: all ease 0.2s;
+    text-align: center;
+}
+.hx{
+    font-family: 'Times New Roman', Times, serif;
+}
